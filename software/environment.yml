@@ -5,14 +5,17 @@ channels:
 
 dependencies:
   - python=3.12
-  - cloudpickle
-  - ndcctools
-  - coffea<2024.4.2
-  - dask<2024.5.2
-  - dask-awkward<2024.5.0
-  - dask-core<2024.5.0
-  - dask-histogram<2024.5.0
-  - fsspec
-  - aiohttp
+  - cloudpickle=3.0
+  - ndcctools=7.17
+  - coffea=2024.4
+  - dask=2024.4
+  - dask-awkward=2024.3
+  - dask-core=2024.4
+  - dask-histogram=2024.3
+  - fsspec=2024.3
+  - aiohttp=3.9
+  - pytz=2024.1
+  - scipy=1.13
+  - pip=24.0
   - pip:
-    - fastjet<3.4.2.2
+      - fastjet==3.4.2.1
